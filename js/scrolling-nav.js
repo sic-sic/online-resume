@@ -2,8 +2,10 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+        var hash = $anchor.attr('href').substring(1);
+        if (window.location.pathname !== '/') return;
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $(hash).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });

@@ -841,6 +841,16 @@ input:focus {
 
 /* / End Dribbble Button */
 /* / End Social Buttons */
+/* Tables */
+table tr td {
+  padding-bottom: 8px;
+}
+table tr td {
+  vertical-align: top;
+}
+table tr td i.fa {
+  font-size: 14px
+}
 /* Checkboxes */
 .checkbox {
   padding-left: 10px;

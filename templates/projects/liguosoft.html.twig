@@ -1,0 +1,80 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-9 col-md-offset-1">
+            <section id="blog">
+                <div class="container">
+                    <div class="blog block post-content-area padd15">
+                        <h3>LiguoSoft - Un progiciel de future génération développé par <a
+                                    href="http://www.kintech.ml">KinTech</a></h3>
+                        <img src="/images/projects/liguosoft/img-001.png" alt="">
+                        <p>
+                            <a href="https://www.kintech.ml/liguo">Liguo</a> est un progiciel modulaire qui permet aux
+                            entreprises de gérer leur business en toute simplicité et efficacité.
+                            <br><br>
+                            Chez KinTech, j'ai eu le privilège d'être à la fois Scrum Master et développeur de l'équipe
+                            projet Liguo. J'ai activement contribué au développement et à la maintenance du noyau du
+                            progiciel. Un noyau dévéloppé en Java et Spring Boot pour le Backend et le Frontend en
+                            Angular 15+ et Webpack Module Federation.
+                            <br><br>
+                            Liguo est basé sur l'architecture &laquo;plugin system&raquo; de manière à faciliter son
+                            extension par d'autres développeurs.
+                            <br><br>
+                            Mon expérience chez KinTech, notamment ma participation au projet Liguo, m'a permis
+                            d'entrer en profondeur dans l'utilisation du Framework Spring et du language Java.
+                            Les différents défis techniques rencontrés sur mon chemin m'ont permis de me familiariser
+                            avec des concepts plus avancés et me classer, comme on dit, au rang des Guru du Framework
+                            Spring
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <!-- / blog-block -->
+
+                    <div class="space-50">&nbsp;</div>
+
+                    <div class="share">
+                        <a href="#" class="btn-social btn-facebook-filled"><i class="fa fa-facebook"></i>
+                            <span>Share</span></a>
+                        <a href="#" class="btn-social btn-twitter-filled"><i class="fa fa-twitter"></i>
+                            <span>Tweet</span></a>
+                        <a href="#" class="btn-social btn-google-filled"><i class="fa fa-google"></i> <span>Share on Google+</span></a>
+                        <a href="#" class="btn-social btn-pinterest-filled"><i class="fa fa-pinterest"></i>
+                            <span>Pin it</span></a>
+                    </div>
+                </div><!-- / container -->
+            </section>
+            <!-- / blog content -->
+
+            <!-- portfolio section 3col -->
+            <section id="portfolio">
+                <div class="container">
+                    <div class="page-header space-left">
+                        <h3>Projets similaires<span class="text-primary">.</span></h3>
+                    </div>
+                    <ul class="row portfolio list-unstyled" id="grid">
+                        <li class="col-xs-6 col-md-4 project" data-groups='["design", "creative"]'>
+                            <figure>
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="/images/sigap.jpg" alt="">
+                                    <a href="/projects/sigap">
+                                        <div class="overlay">
+                                            <div class="hovereffect-title">
+                                                <h6>Système Intégré de Gestion de l'Aide Publiqe (SIGAP)</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </figure>
+                        </li><!-- project -->
+
+                        <!-- sizer -->
+                        <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
+                    </ul><!-- / row portfolio-items -->
+                </div><!-- / container -->
+            </section>
+            <!-- / portfolio section 3col -->
+        </div>
+    </div>
+{% endblock %}
